@@ -6,7 +6,7 @@
 ### インストール手順
 ```
 $ cd ~/catkin_ws/src/
-$ https://github.com/Takeshi-Kojima/My_ROS.git
+$ git clone https://github.com/Takeshi-Kojima/My_ROS.git
 $ cd ../
 $ catkin_make
 ```    
