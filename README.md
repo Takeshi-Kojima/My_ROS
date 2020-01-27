@@ -1,7 +1,8 @@
 # 2019ロボットシステム学 課題 2 
 # システムの概要  
-入力された数字をフィートとして認識しメートルに変換する  
-フィートで入力された数字をパブリッシュして、それをサブスクライブしてメートルに変換するパッケージ  
+入力した文字列の中の特定の単語の表示を規制するパッケージ
+入力した文字列をrostopicとしてパブリッシュし，別ノードでサブスクライブして特定の単語を「＊＊＊」に変換  
+
 ## 手法  
 ### インストール手順
 ```
@@ -14,11 +15,16 @@ $ catkin_make
 端末１  
 `$ roscore`  
 端末２  
-`$ rosrun My_ROS pub_feet.py`  
+`$ rosrun My_ROS pub_message.py`  
 端末３  
-`$ rosrun My_ROS sub_feet.py`
+`$ rosrun My_ROS sub_message.py`
 ## YouTube
-https://www.youtube.com/watch?v=4cbgXBJuzwM&feature=share
+https://youtu.be/WZDkQj4yW0M
+
+## 一緒に課題を行った人
+小関隆司　https://github.com/KosekiTakashi  
+木村慧士　https://github.com/kimurasatoshi  
+吉村一希　https://github.com/kazuki0702  
 
 ## LICENSE  
 This repository is licensed under the BSD-3-Clause license, see LICENSE.
